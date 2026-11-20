@@ -36,7 +36,7 @@ Kanban Board (board.png)
 
 1. Clone the repository:
    ```
-   git clone <your-repo-link>
+   git clone https://github.com/snehat1806-png/TaskFlow-Kanban-Board.git
    ```
 2. Open `index.html` in your browser.
 
