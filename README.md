@@ -6,7 +6,7 @@ A Kanban board built with HTML, CSS and vanilla JavaScript. Users can add tasks,
 
 ## Screenshots
 
-![Kanban board](screenshots/board.png)
+![Kanban board](board2.png)
 
 ## Features
 
