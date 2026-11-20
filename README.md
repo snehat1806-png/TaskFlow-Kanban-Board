@@ -6,7 +6,7 @@ A static Kanban board built with HTML and CSS. It has three columns (To Do, In P
 
 ## Screenshots
 
-![Kanban board](screenshots/board.png)
+![Kanban board](board.png)
 
 ## Features
 
