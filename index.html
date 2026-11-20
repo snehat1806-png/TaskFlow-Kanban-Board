@@ -16,51 +16,24 @@
         <option value="medium">Medium</option>
         <option value="high">High</option>
       </select>
-      <button class="add-task-button" type="button">Add task</button>
+      <button class="add-task-button" type="submit">Add task</button>
     </form>
   </header>
 
   <main class="board">
-    <section class="column">
-      <h2 class="column-title">To Do <span class="task-count">(3)</span></h2>
-      <article class="task-card">
-        <h3 class="task-title">Design login page</h3>
-        <span class="priority priority-high">High</span>
-        <p class="task-due">Due: 25 Nov</p>
-      </article>
-      <article class="task-card">
-        <h3 class="task-title">Style priority labels</h3>
-        <span class="priority priority-medium">Medium</span>
-        <p class="task-due">Due: 27 Nov</p>
-      </article>
-      <article class="task-card">
-        <h3 class="task-title">Set up GitHub repo</h3>
-        <span class="priority priority-low">Low</span>
-        <p class="task-due">Due: 30 Nov</p>
-      </article>
+    <section class="column" data-status="todo">
+      <h2 class="column-title">To Do <span class="task-count">(0)</span></h2>
+      <div class="task-list"></div>
     </section>
 
-    <section class="column">
-      <h2 class="column-title">In Progress <span class="task-count">(2)</span></h2>
-      <article class="task-card">
-        <h3 class="task-title">Build navbar</h3>
-        <span class="priority priority-medium">Medium</span>
-        <p class="task-due">Due: 23 Nov</p>
-      </article>
-      <article class="task-card">
-        <h3 class="task-title">Fix mobile spacing</h3>
-        <span class="priority priority-high">High</span>
-        <p class="task-due">Due: 22 Nov</p>
-      </article>
+    <section class="column" data-status="doing">
+      <h2 class="column-title">In Progress <span class="task-count">(0)</span></h2>
+      <div class="task-list"></div>
     </section>
 
-    <section class="column">
-      <h2 class="column-title">Done <span class="task-count">(1)</span></h2>
-      <article class="task-card">
-        <h3 class="task-title">Create project folder</h3>
-        <span class="priority priority-low">Low</span>
-        <p class="task-due">Due: 20 Nov</p>
-      </article>
+    <section class="column" data-status="done">
+      <h2 class="column-title">Done <span class="task-count">(0)</span></h2>
+      <div class="task-list"></div>
     </section>
   </main>
 

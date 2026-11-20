@@ -101,3 +101,26 @@ body {
   .add-task-form { flex-wrap: wrap; width: 100%; }
   .add-task-input { flex: 1; min-width: 0; }
 }
+
+/* Week 2: card actions */
+.task-actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.task-actions button {
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.task-actions button:hover:not(:disabled) { background: var(--bg); }
+.task-actions button:disabled { opacity: 0.35; cursor: not-allowed; }
+.task-actions .delete-btn { margin-left: auto; color: var(--priority-high); }
+
+.task-title { cursor: text; }
